@@ -1,4 +1,6 @@
-import { galleryItems } from './gallery-items.js'; // Ensure this file exists and exports galleryItems
+import { galleryItems } from './gallery-items.js'; 
+import SimpleLightbox from 'simple-lightbox';
+import 'simple-lightbox/dist/simple-lightbox.min.css';
 
 const gallery = document.querySelector('.gallery');
 
@@ -18,5 +20,5 @@ const lightbox = new SimpleLightbox('.gallery a', {
     captions: true,
     captionsData: 'alt',
     captionDelay: 250,
-    nav: true // Enable navigation arrows
+    nav: true 
 });
