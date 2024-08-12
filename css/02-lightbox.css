@@ -1,0 +1,41 @@
+.gallery {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery__item {
+    flex: 1 1 calc(33.333% - 10px);
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.gallery__link {
+    display: block;
+}
+
+.gallery__image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Stiluri personalizate pentru săgețile de navigare SimpleLightbox */
+.simple-lightbox .sl-nav {
+    color: #fff;
+    /* Culoarea săgeților */
+    background: rgba(0, 0, 0, 0.5);
+    /* Culoarea de fundal */
+}
+
+.simple-lightbox .sl-nav:before {
+    font-family: 'Arial';
+    /* Familia de fonturi pentru săgeți */
+    font-size: 24px;
+    /* Dimensiunea fontului pentru săgeți */
+}
