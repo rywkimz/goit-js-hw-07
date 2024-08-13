@@ -29,7 +29,6 @@ button {
   gap: 16px;
 }
 
-/* No list style if you are using ul or ol */
 .gallery ul,
 .gallery li {
   list-style-type: none;
